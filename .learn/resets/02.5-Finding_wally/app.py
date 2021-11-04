@@ -2,8 +2,3 @@ people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darnell',
 
 #Your code here:
 
-element = "Wally"
-
-for i in range(0, len(people)):
-    if people[i] == element:
-        print(i)
