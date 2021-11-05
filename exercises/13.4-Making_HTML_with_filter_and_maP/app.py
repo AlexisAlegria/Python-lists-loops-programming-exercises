@@ -7,6 +7,17 @@ all_colors = [
 	{"label": 'Violet', "sexy": True},
 	{"label": 'Purple', "sexy": False},
 ]
+def filter_colors(color):
+	return color["sexy"] == True
 
-#Your code go here:
+sexyColors = list(filter(filter_colors,all_colors))
+
+def generate_li(sexyColors):
+	sexy_colors_list = list(map(lambda color: "<li>" + color["label"] + "</li>",sexyColors))
+	no_comas_between_lis = "".join(sexy_colors_list)
+	return no_comas_between_lis
+
+print(generate_li(sexyColors)) 
+
+
 

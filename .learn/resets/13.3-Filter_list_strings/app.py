@@ -7,9 +7,3 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
-def filtered_Names(name):
-    expresion = "am"
-    return name.__contains__(expresion)
-
-result = list(filter(filtered_Names,names))
-print(result)

@@ -9,10 +9,7 @@ tasks = [
 	{ "label": 'Read a book', "done": True },
 	{ "label": 'Make a trip', "done": False }
 ]
+
+
 #Your code go here:
-def filter_Tasks(task):
-	return task["done"] == True
-		
-tasksDone = list(filter(filter_Tasks,tasks))
-print(tasksDone)
-print(type(tasks))
+

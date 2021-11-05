@@ -7,12 +7,5 @@ incomingAJAXData = [
 ]
 
 #Your code go here:
-transformedData=[]
-def my_var(transformedData):
-    transformed=list(map(lambda person: person["name"]+" "+person["lastName"],transformedData))
-    return transformed
-
-print(my_var(incomingAJAXData))
-
 
 
