@@ -4,5 +4,4 @@ contact = {
     "email": "test@test.com"
 }
 #Your code here:
-for items in contact:
-    print(items + " : " + contact[items])
+
