@@ -9,3 +9,4 @@ spanish_translations["smart"] = "inteligente"
 print("Translation", spanish_translations["dog"])
 print("All", spanish_translations)
 
+
